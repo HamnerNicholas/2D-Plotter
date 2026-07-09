@@ -1,9 +1,17 @@
-# Math Function Plotter
+# Image To Draw Vectors
 
-This tool samples a math function and turns it into plotter commands.
+This tool converts a source image into plotter commands for the STM32 2D plotter.
+
+## Files
+
+- `draw_picture.py` - main script
+- `input/` - sample input images
+- `output/` - generated sample command files
 
 ## Run
 
 ```bash
-python src/drawing_script.py "sin(x)" --xmin -3.14159 --xmax 3.14159 --samples 200 --width-mm 40 --height-mm 40
+python src/image_to_draw_vectors.py input/image0.png
 ```
+
+Or run it with no argument and pick a file from `input/`.
