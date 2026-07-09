@@ -5,10 +5,6 @@ This repo is our final project for a small 2D plotter built around an STM32 boar
 Group Members: Tajinderpal Gill, Nicholas Hamner, Dominique Kisantear, Louie Manlangit
 Lab Instructor: Sean Kennedy
 
-## Project Description:
-
-For our group’s project we plan on modifying an existing Ender-3 3D printer platform into a 2D drawing machine controlled by an STM32 microcontroller. The printer’s stepper motors will be used to move a pen in the X and Y directions across a sheet of paper or a small whiteboard mounted on the printer bed. Our system will be able to draw simple hardcoded shapes such as lines, squares, and triangles, and we also plan to implement a pen up / pen down feature so the pen can lift off the surface between drawing motions. To keep the project realistic and achievable, we will first focus on reliable hardcoded motion control and then expand the system by adding user input through buttons, key presses, or interrupts to select different drawing patterns.
-
 ## Hardware summary
 
 - STM32F303K8 based controller
