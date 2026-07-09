@@ -11,7 +11,7 @@ This tool converts a source image into plotter commands for the STM32 2D plotter
 ## Run
 
 ```bash
-python src/image_to_draw_vectors.py input/image0.png
+python src/image_to_draw_vectors.py input/image.png
 ```
 
 Or run it with no argument and pick a file from `input/`.
